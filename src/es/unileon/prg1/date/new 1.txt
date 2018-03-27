@@ -1,0 +1,67 @@
+﻿switch(this.month){
+			case 1:
+				System.out.println("Enero");
+				break;
+			case 2:
+				System.out.println("Febrero");
+				break;
+			case 3:
+				System.out.println("Marzo");
+				break;
+			case 4:
+				System.out.println("Abril");
+				break;
+			case 5:
+				System.out.println("Mayo");
+				break;
+			case 6:
+				System.out.println("Junio");
+				break;
+			case 7:
+				System.out.println("Julio");
+				break;
+			case 8:
+				System.out.println("Agosto");
+				break;
+			case 9:
+				System.out.println("Septiembre");
+				break;
+			case 10:
+				System.out.println("Octubre");
+				break;
+			case 11:
+				System.out.println("Noviembre");
+				break;
+			case 12:
+				System.out.println("Diciembre");
+				break;
+			default:
+				System.out.println("No es un mes del año");
+				break;
+		}
+
+
+
+Tres constructores:
+	1º-Tres parametros(dia mes y año).
+	2º-0 parametros (01/01/2018).
+	3º-1 parametros de tipo Date.
+Tres getters.
+Tres setters.
+IF:
+	-Cuatro con if.
+	-Otrso cuatro sin el if (boolean).
+SWITCH:
+	-getMonthName.	
+	-isDayRight(int day).
+	-setSeasonName.
+FOR:
+	-getMonthsLeft
+	-toString
+	-getDaysLeftOfMonth
+	-getMonthsSameDays
+	-daysPas
+WHILE/DO-WHILE:
+	-numRandomTriesEqualDate1
+	-numRandomTriesEqualDate2
+	-dayOfWeek
